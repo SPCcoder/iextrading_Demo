@@ -13,6 +13,7 @@
 		1885B86A200CCC4300C72195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1885B869200CCC4300C72195 /* Assets.xcassets */; };
 		1885B86D200CCC4300C72195 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1885B86B200CCC4300C72195 /* LaunchScreen.storyboard */; };
 		1885B875200CCF2000C72195 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885B874200CCF2000C72195 /* Stock.swift */; };
+		1885B877200CD31A00C72195 /* StockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885B876200CD31A00C72195 /* StockTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1885B86C200CCC4300C72195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1885B86E200CCC4300C72195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1885B874200CCF2000C72195 /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		1885B876200CD31A00C72195 /* StockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				1885B862200CCC4300C72195 /* AppDelegate.swift */,
 				1885B864200CCC4300C72195 /* ViewController.swift */,
 				1885B874200CCF2000C72195 /* Stock.swift */,
+				1885B876200CD31A00C72195 /* StockTableViewCell.swift */,
 				1885B866200CCC4300C72195 /* Main.storyboard */,
 				1885B869200CCC4300C72195 /* Assets.xcassets */,
 				1885B86B200CCC4300C72195 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			files = (
 				1885B865200CCC4300C72195 /* ViewController.swift in Sources */,
 				1885B863200CCC4300C72195 /* AppDelegate.swift in Sources */,
+				1885B877200CD31A00C72195 /* StockTableViewCell.swift in Sources */,
 				1885B875200CCF2000C72195 /* Stock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
