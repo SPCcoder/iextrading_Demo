@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-       
+       self.title = "Top Gainers"
     }
 
     override func didReceiveMemoryWarning() {
@@ -65,6 +65,7 @@ class ViewController: UIViewController {
     }
 
 }
+// 21 + 21 + 24
 extension ViewController : UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.stockArray.count
