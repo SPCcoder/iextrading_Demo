@@ -14,6 +14,7 @@
 		1885B86D200CCC4300C72195 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1885B86B200CCC4300C72195 /* LaunchScreen.storyboard */; };
 		1885B875200CCF2000C72195 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885B874200CCF2000C72195 /* Stock.swift */; };
 		1885B877200CD31A00C72195 /* StockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885B876200CD31A00C72195 /* StockTableViewCell.swift */; };
+		1885B879200CDA7B00C72195 /* StockDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885B878200CDA7B00C72195 /* StockDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1885B86E200CCC4300C72195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1885B874200CCF2000C72195 /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
 		1885B876200CD31A00C72195 /* StockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTableViewCell.swift; sourceTree = "<group>"; };
+		1885B878200CDA7B00C72195 /* StockDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				1885B874200CCF2000C72195 /* Stock.swift */,
 				1885B876200CD31A00C72195 /* StockTableViewCell.swift */,
 				1885B866200CCC4300C72195 /* Main.storyboard */,
+				1885B878200CDA7B00C72195 /* StockDetailViewController.swift */,
 				1885B869200CCC4300C72195 /* Assets.xcassets */,
 				1885B86B200CCC4300C72195 /* LaunchScreen.storyboard */,
 				1885B86E200CCC4300C72195 /* Info.plist */,
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1885B879200CDA7B00C72195 /* StockDetailViewController.swift in Sources */,
 				1885B865200CCC4300C72195 /* ViewController.swift in Sources */,
 				1885B863200CCC4300C72195 /* AppDelegate.swift in Sources */,
 				1885B877200CD31A00C72195 /* StockTableViewCell.swift in Sources */,

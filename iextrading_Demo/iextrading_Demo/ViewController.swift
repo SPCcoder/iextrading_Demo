@@ -65,7 +65,7 @@ class ViewController: UIViewController {
     }
 
 }
-// 21 + 21 + 24
+
 extension ViewController : UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.stockArray.count
@@ -85,7 +85,18 @@ extension ViewController : UITableViewDelegate, UITableViewDataSource {
         stockCell.percentChangeLabel.text = String(format: "%.2f", stock.changePercent)
         return stockCell
     }
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+
+
+        if let detailVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "StockDetailViewController") as? StockDetailViewController {
+            if let navigator = navigationController {
+                detailVC.stock = self.stockArray[indexPath.row]
+                navigator.pushViewController(detailVC, animated: true)
+                
+            }
+        }
+        // self.performSegue(withIdentifier: "detailSegue", sender: self)
+    }
         
     }
 
