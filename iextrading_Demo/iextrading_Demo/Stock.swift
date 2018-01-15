@@ -14,7 +14,7 @@ struct Stock : Decodable {
     let open : Float
     let close : Float
     var latestPrice : Float
-    
+    var previousClose : Float
     var changePercent : Float // needs + or -
  // logo here?
     
